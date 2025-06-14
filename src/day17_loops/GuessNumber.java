@@ -25,7 +25,7 @@ public class GuessNumber {
         Scanner key = new Scanner(System.in);
         int secretNum = 435;
         int userGuess;
-        int userAttempt = 4;
+        int userAttempt = 0;
 
         do {
             System.out.print("Guess what my secret number is: ");
@@ -37,10 +37,13 @@ public class GuessNumber {
                 System.out.println("Too high. Go lower");
             } else {
                 System.out.println("You guessed correctly");
+            } if(userGuess != secretNum && userAttempt >= 4){
+                System.out.println("Out of tries");
             }
-
+            userAttempt++;
             userGuess--;
-        } while (userGuess != secretNum && userAttempt < 0);
+
+        } while (userGuess != secretNum && userAttempt < 4);
 
 // todo: in this code implement it to only allow user to guess 4 times
         //hint: check ATM task
