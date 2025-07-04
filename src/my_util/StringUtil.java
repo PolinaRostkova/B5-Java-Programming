@@ -48,4 +48,21 @@ public class StringUtil {
         }
         return uniqueChars;
     }
+
+    /**
+     * This method reverse the given string
+     * @param str is the given string
+     * @return the reversed string
+     */
+    public static String reverse(String str){
+        String reversed = "";
+        for (int i = str.length() -1 ; i >= 0 ; i--) {
+
+            reversed += str.charAt(i);
+        }
+
+
+        return reversed;
+    }
+    //todo: add a reusable method for duplicate letters (String str)
 }
