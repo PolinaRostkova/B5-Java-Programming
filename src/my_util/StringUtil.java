@@ -1,5 +1,7 @@
 package my_util;
 
+import java.util.ArrayList;
+
 public class StringUtil {
     /**
      * This method fixes the format of the word
@@ -63,6 +65,20 @@ public class StringUtil {
 
 
         return reversed;
+    }
+
+    public static String htmlGenerator(String str){
+        String result = "";
+
+        int indexOfDevider = str.indexOf("^");
+        int cycle = Integer.parseInt(str.substring(indexOfDevider + 1));
+        String text1 = str.substring(0, indexOfDevider);
+
+        for (int i = 1; i <= cycle ; i++) {
+            result = "<" + text1 + "></" + text1 + ">";
+        }
+
+        return result;
     }
     //todo: add a reusable method for duplicate letters (String str)
 }
