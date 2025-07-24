@@ -80,5 +80,21 @@ public class StringUtil {
 
         return result;
     }
+
+    /**
+     * This method fixes the format of the word
+     * @param word is the given string
+     * @return fixed format - 1st letter Upper and rest is Lower Case
+     */
+    public static String fixFormatForFullName (String word){
+
+        String[] words = word.split(" ");
+        String fullName = "";
+        for (String each : words){
+            fullName += ("" + each.charAt(0)).toUpperCase() + each.substring(1).toLowerCase() + " ";
+        }
+
+        return fullName.trim();
+    }
     //todo: add a reusable method for duplicate letters (String str)
 }
