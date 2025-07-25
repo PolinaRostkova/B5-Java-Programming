@@ -20,7 +20,7 @@ public class ForLoopExample {
                 2.a - true - execute the code block
                     3 - iteration
                     4 - repeat from 2
-                2.b - false - end the loop
+                2.B - false - end the loop
          */
 
         System.out.println("-----------------------------");

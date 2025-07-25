@@ -19,7 +19,7 @@ public class ShortHandOperators {
         System.out.println();
 
         int b = 10;
-        b *=2;              // re-assigned by using shorthand operators multiplying itself by 2 ---> b = b * 2;
+        b *=2;              // re-assigned by using shorthand operators multiplying itself by 2 ---> B = B * 2;
 
         System.out.println(b);
         System.out.println();

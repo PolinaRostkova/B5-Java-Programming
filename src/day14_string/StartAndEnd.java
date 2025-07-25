@@ -28,7 +28,7 @@ public class StartAndEnd {
 
         String sentence = "Today is Java class day";
         System.out.println(sentence.startsWith("Today ")); //true --> strts with today and space
-        System.out.println(sentence.startsWith("Today is Java c")); //true --> stats with today and space
+        System.out.println(sentence.startsWith("Today is Java C")); //true --> stats with today and space
         System.out.println(sentence.startsWith("Today is Java classd")); //false
 
         //#7 - "".endsWith(""); --> will check if ends or not with exact match - returns boolean

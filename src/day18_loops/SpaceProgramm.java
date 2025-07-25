@@ -9,7 +9,7 @@ public class SpaceProgramm {
         If there is already a space in the String put an underscore
 
             Ex: java	-> j a v a
-                space 	-> s p a c e
+                space 	-> s p a C e
                 more words -> m o r e _ w o r d s
 
      */
@@ -19,7 +19,7 @@ public class SpaceProgramm {
             System.out.print("Please, a sentence: ");
             String userInput = key.nextLine().replace(" ",  "_");  // more java is good ----- > .replace(" ", "_"); -- > more_java_is_good
             // java --- > j a v a
-            // java book -> j a v a _ b o o k
+            // java book -> j a v a _ B o o k
 
             String userInputWithSpace = "";
 

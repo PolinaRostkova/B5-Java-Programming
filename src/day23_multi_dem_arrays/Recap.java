@@ -48,7 +48,7 @@ public class Recap {
         //How convert String into char
         String str4 = "loopcamp";
         char[] strCharArr = str4.toCharArray();
-        System.out.println(Arrays.toString(strCharArr)); // [l, o, o, p, c, a, m, p]
+        System.out.println(Arrays.toString(strCharArr)); // [l, o, o, p, C, a, m, p]
     }
 
 }

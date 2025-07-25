@@ -59,8 +59,8 @@ public class UsingCollectionsClass {
         String str = "loopcamp"; // o
         // String  --- > String [] ----- > ArrayList <String>
         //"loopcamp"
-        // array -- > ["l", "o", "o", "p", "c", "a", "m", "p"]
-        // ArrayList -- > ["l", "o", "o", "p", "c", "a", "m", "p"]
+        // array -- > ["l", "o", "o", "p", "C", "a", "m", "p"]
+        // ArrayList -- > ["l", "o", "o", "p", "C", "a", "m", "p"]
         ArrayList <String> list = new ArrayList<> ( Arrays.asList( str.split("")) );
         System.out.println( Collections.frequency(list, "o") );
         System.out.println( Collections.frequency(list, "l") );
