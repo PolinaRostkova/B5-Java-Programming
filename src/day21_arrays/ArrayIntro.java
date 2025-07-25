@@ -51,7 +51,7 @@ public class ArrayIntro {
         // q: how can i read the elements from array (how do we read each char from String)
         // a: similar to String we will be using indexes to get the element at the given index
 
-        System.out.println(city1.charAt(0)); // "Chicago" --> will give me "c"
+        System.out.println(city1.charAt(0)); // "Chicago" --> will give me "C"
         System.out.println(cities1[0]);      // {"Chicago", "Fairfax", "NewYork", "Boston"} ---> "Chicago"
         //                                          0           1           2          3
         System.out.println(cities1[1]);

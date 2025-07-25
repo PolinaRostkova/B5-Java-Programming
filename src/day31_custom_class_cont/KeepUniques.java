@@ -40,6 +40,6 @@ todo: homework --> String str = "vnslursdfsbrs";
  using collections knowledge create a method that finds duplicate (more that 1) characters
 
  Ex:  String str = "vnslursdfsbrs"
-    1) ['v', 'n', 'l', 'u', 'd', 'f', 'b']
+    1) ['v', 'n', 'l', 'u', 'd', 'f', 'B']
     2) ['s', 'r']
  */
