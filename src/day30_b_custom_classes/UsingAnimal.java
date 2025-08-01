@@ -18,7 +18,7 @@ public class UsingAnimal {
 
         System.out.println("---------------------");
 
-        animal1.species = "Bird";
+        animal1.species = "Birds";
         animal1.population = 100_000_000;
 
         System.out.println(animal1.species);
