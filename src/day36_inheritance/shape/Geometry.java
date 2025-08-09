@@ -5,5 +5,6 @@ public class Geometry {
         Squere squere = new Squere(4);
 
         Circle circle = new Circle(5);
+        System.out.println(Circle.calculateArea(45));
     }
 }
